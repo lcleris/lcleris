@@ -1,0 +1,75 @@
+<svg viewBox="0 0 860 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161e2d"/>
+      <stop offset="100%" stop-color="#1a2535"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="520" fill="url(#ebg)" rx="14"/>
+  <rect x="0" y="0" width="4" height="520" fill="#d4784a" rx="2" opacity="0.85"/>
+
+  <!-- Title -->
+  <text x="36" y="44" font-family="'SF Pro Display','Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#4a7a9b" letter-spacing="4">EXPERIENCE</text>
+  <line x1="36" y1="54" x2="828" y2="54" stroke="#2a3f58" stroke-width="1"/>
+
+  <!-- ── Masana ── -->
+  <circle cx="36" cy="86" r="7" fill="#1d9e75"/>
+  <text x="60" y="82" font-family="'SF Pro Display','Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#e8e4d8">Masana</text>
+  <text x="60" y="102" font-family="'SF Pro Display','Segoe UI',sans-serif" font-size="14" fill="#5a8aaa">Frontend Developer · Tournai, Belgium</text>
+  <text x="828" y="82" font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#1d9e75" text-anchor="end">current</text>
+  <!-- pills -->
+  <rect x="60" y="112" width="60" height="22" rx="5" fill="#20232a" stroke="#61dafb" stroke-width="0.7" opacity="0.85"/>
+  <text x="90" y="127" font-family="'SF Mono',monospace" font-size="11" fill="#61dafb" text-anchor="middle">React</text>
+  <rect x="128" y="112" width="104" height="22" rx="5" fill="#20232a" stroke="#61dafb" stroke-width="0.7" opacity="0.85"/>
+  <text x="180" y="127" font-family="'SF Mono',monospace" font-size="11" fill="#61dafb" text-anchor="middle">React Native</text>
+  <rect x="240" y="112" width="90" height="22" rx="5" fill="#1a2a4a" stroke="#3178c6" stroke-width="0.7" opacity="0.85"/>
+  <text x="285" y="127" font-family="'SF Mono',monospace" font-size="11" fill="#3178c6" text-anchor="middle">TypeScript</text>
+  <rect x="338" y="112" width="60" height="22" rx="5" fill="#0d1f3c" stroke="#2496ed" stroke-width="0.7" opacity="0.85"/>
+  <text x="368" y="127" font-family="'SF Mono',monospace" font-size="11" fill="#2496ed" text-anchor="middle">Docker</text>
+  <rect x="406" y="112" width="74" height="22" rx="5" fill="#2a1a10" stroke="#fc6d26" stroke-width="0.7" opacity="0.85"/>
+  <text x="443" y="127" font-family="'SF Mono',monospace" font-size="11" fill="#fc6d26" text-anchor="middle">GitLab CI</text>
+  <rect x="488" y="112" width="66" height="22" rx="5" fill="#0d1f1a" stroke="#69d3a7" stroke-width="0.7" opacity="0.85"/>
+  <text x="521" y="127" font-family="'SF Mono',monospace" font-size="11" fill="#69d3a7" text-anchor="middle">Cypress</text>
+  <line x1="36" y1="148" x2="828" y2="148" stroke="#1e2e42" stroke-width="1"/>
+
+  <!-- ── Orano ── -->
+  <circle cx="36" cy="176" r="7" fill="#534ab7"/>
+  <text x="60" y="172" font-family="'SF Pro Display','Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#e8e4d8">Orano &amp; Framatome</text>
+  <text x="60" y="192" font-family="'SF Pro Display','Segoe UI',sans-serif" font-size="14" fill="#5a8aaa">Frontend Developer</text>
+  <text x="828" y="172" font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#3a6b7a" text-anchor="end">3 years</text>
+  <rect x="60" y="202" width="60" height="22" rx="5" fill="#20232a" stroke="#61dafb" stroke-width="0.7" opacity="0.85"/>
+  <text x="90" y="217" font-family="'SF Mono',monospace" font-size="11" fill="#61dafb" text-anchor="middle">React</text>
+  <rect x="128" y="202" width="104" height="22" rx="5" fill="#20232a" stroke="#61dafb" stroke-width="0.7" opacity="0.85"/>
+  <text x="180" y="217" font-family="'SF Mono',monospace" font-size="11" fill="#61dafb" text-anchor="middle">React Native</text>
+  <rect x="240" y="202" width="90" height="22" rx="5" fill="#1a2a4a" stroke="#3178c6" stroke-width="0.7" opacity="0.85"/>
+  <text x="285" y="217" font-family="'SF Mono',monospace" font-size="11" fill="#3178c6" text-anchor="middle">TypeScript</text>
+  <line x1="36" y1="238" x2="828" y2="238" stroke="#1e2e42" stroke-width="1"/>
+
+  <!-- ── Candriam ── -->
+  <circle cx="36" cy="264" r="7" fill="#ba7517"/>
+  <text x="60" y="260" font-family="'SF Pro Display','Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#e8e4d8">Candriam</text>
+  <text x="60" y="280" font-family="'SF Pro Display','Segoe UI',sans-serif" font-size="14" fill="#5a8aaa">Software Developer</text>
+  <text x="828" y="260" font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#3a6b7a" text-anchor="end">1 year</text>
+  <rect x="60" y="290" width="62" height="22" rx="5" fill="#0d1f3a" stroke="#3776ab" stroke-width="0.7" opacity="0.85"/>
+  <text x="91" y="305" font-family="'SF Mono',monospace" font-size="11" fill="#3776ab" text-anchor="middle">Python</text>
+  <rect x="130" y="290" width="44" height="22" rx="5" fill="#0d2a1a" stroke="#217346" stroke-width="0.7" opacity="0.85"/>
+  <text x="152" y="305" font-family="'SF Mono',monospace" font-size="11" fill="#217346" text-anchor="middle">VBA</text>
+  <line x1="36" y1="326" x2="828" y2="326" stroke="#1e2e42" stroke-width="1"/>
+
+  <!-- ── Cognacq-Jay ── -->
+  <circle cx="36" cy="352" r="7" fill="#d85a30"/>
+  <text x="60" y="348" font-family="'SF Pro Display','Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#e8e4d8">Cognacq-Jay</text>
+  <text x="60" y="368" font-family="'SF Pro Display','Segoe UI',sans-serif" font-size="14" fill="#5a8aaa">Tech Support &amp; Developer</text>
+  <text x="828" y="348" font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#3a6b7a" text-anchor="end">1 year</text>
+  <rect x="60" y="378" width="84" height="22" rx="5" fill="#1a1a3a" stroke="#5391fe" stroke-width="0.7" opacity="0.85"/>
+  <text x="102" y="393" font-family="'SF Mono',monospace" font-size="11" fill="#5391fe" text-anchor="middle">Powershell</text>
+  <line x1="36" y1="414" x2="828" y2="414" stroke="#1e2e42" stroke-width="1"/>
+
+  <!-- ── TF1 ── -->
+  <circle cx="36" cy="440" r="7" fill="#555060"/>
+  <text x="60" y="436" font-family="'SF Pro Display','Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#e8e4d8">TF1</text>
+  <text x="60" y="456" font-family="'SF Pro Display','Segoe UI',sans-serif" font-size="14" fill="#5a8aaa">Cook — yes, really</text>
+  <text x="828" y="436" font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#3a6b7a" text-anchor="end">3 years</text>
+  <rect x="60" y="466" width="54" height="22" rx="5" fill="#2a2030" stroke="#887880" stroke-width="0.7" opacity="0.85"/>
+  <text x="87" y="481" font-family="'SF Mono',monospace" font-size="11" fill="#887880" text-anchor="middle">Knives</text>
+</svg>

@@ -1,0 +1,89 @@
+<svg viewBox="0 0 860 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#1a2535"/>
+      <stop offset="45%"  stop-color="#1e2e42"/>
+      <stop offset="100%" stop-color="#1a1f2e"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="12%" cy="0%" r="45%">
+      <stop offset="0%" stop-color="#c8632a" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#c8632a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="90%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#d4784a" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#d4784a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur-soft">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
+  </defs>
+
+  <rect width="860" height="120" fill="url(#bg)" rx="10"/>
+  <rect width="860" height="120" fill="url(#glow1)" rx="10"/>
+  <rect width="860" height="120" fill="url(#glow2)" rx="10"/>
+
+  <!-- Rain -->
+  <g opacity="0.06" stroke="#8ab4cc" stroke-width="0.8">
+    <line x1="60"  y1="0"   x2="40"  y2="120"/>
+    <line x1="130" y1="0"   x2="110" y2="120"/>
+    <line x1="210" y1="0"   x2="190" y2="120"/>
+    <line x1="290" y1="0"   x2="270" y2="120"/>
+    <line x1="380" y1="0"   x2="360" y2="120"/>
+    <line x1="460" y1="0"   x2="440" y2="120"/>
+    <line x1="540" y1="0"   x2="520" y2="120"/>
+    <line x1="630" y1="0"   x2="610" y2="120"/>
+    <line x1="710" y1="0"   x2="690" y2="120"/>
+    <line x1="800" y1="0"   x2="780" y2="120"/>
+  </g>
+
+  <!-- Mountains -->
+  <polygon points="0,90 80,30 160,75 240,20 320,70 400,40 480,80 560,25 640,65 720,35 800,70 860,45 860,120 0,120" fill="#4a7a9b" opacity="0.13"/>
+  <polygon points="0,110 60,60 130,90 200,50 280,85 360,55 440,95 520,45 600,80 680,55 760,90 860,60 860,120 0,120" fill="#3a6b8a" opacity="0.10"/>
+
+  <!-- Lamp orb -->
+  <circle cx="72" cy="14" r="9" fill="#e8834a" opacity="0.9"/>
+  <circle cx="72" cy="14" r="14" fill="#e8834a" opacity="0.15" filter="url(#blur-soft)"/>
+  <line x1="72" y1="0" x2="72" y2="5" stroke="#8ab4cc" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Fire dot -->
+  <circle cx="820" cy="95" r="6" fill="#d4622a" opacity="0.7"/>
+  <circle cx="820" cy="95" r="14" fill="#d4622a" opacity="0.12" filter="url(#blur-soft)"/>
+
+  <!-- Accent bar -->
+  <rect x="30" y="30" width="2.5" height="60" rx="1.5" fill="#d4784a" opacity="0.7"/>
+
+  <!-- Name -->
+  <text x="54" y="65" font-family="'SF Pro Display','Segoe UI',system-ui,sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5" fill="#e8e4d8">Loan <tspan fill="#d4784a">CLERIS</tspan></text>
+
+  <!-- Separator -->
+  <circle cx="306" cy="60" r="2.5" fill="#4a7a9b" opacity="0.8"/>
+
+  <!-- Role -->
+  <text x="322" y="65" font-family="'SF Pro Display','Segoe UI',system-ui,sans-serif" font-size="16" font-weight="400" letter-spacing="3" fill="#8ab4cc">WEB ENGINEER</text>
+
+  <!-- Underline -->
+  <line x1="54" y1="76" x2="490" y2="76" stroke="#4a7a9b" stroke-width="0.5" opacity="0.35"/>
+
+  <!-- Tagline -->
+  <text x="54" y="95" font-family="'SF Mono','Fira Code',monospace" font-size="10" fill="#4a7a9b" letter-spacing="1.5" opacity="0.9">Belgium · React · React Native · Go · TypeScript</text>
+
+  <!-- Keyboard keys -->
+  <g opacity="0.18" fill="#8ab4cc">
+    <rect x="700" y="78" width="18" height="10" rx="2"/>
+    <rect x="722" y="78" width="18" height="10" rx="2"/>
+    <rect x="744" y="78" width="18" height="10" rx="2"/>
+    <rect x="766" y="78" width="18" height="10" rx="2"/>
+    <rect x="711" y="68" width="14" height="8" rx="2"/>
+    <rect x="729" y="68" width="14" height="8" rx="2"/>
+    <rect x="747" y="68" width="14" height="8" rx="2"/>
+  </g>
+
+  <!-- Coffee cup -->
+  <g opacity="0.22" stroke="#c8844a" stroke-width="1.2" fill="none">
+    <rect x="810" y="55" width="16" height="14" rx="2"/>
+    <path d="M826,60 Q834,60 834,65 Q834,70 826,70"/>
+    <path d="M814,53 Q812,49 814,45" stroke-width="0.8" opacity="0.6"/>
+    <path d="M818,53 Q816,48 818,44" stroke-width="0.8" opacity="0.6"/>
+    <path d="M822,53 Q820,49 822,45" stroke-width="0.8" opacity="0.6"/>
+  </g>
+</svg>

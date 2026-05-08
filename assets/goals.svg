@@ -1,0 +1,31 @@
+<svg viewBox="0 0 860 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161e2d"/>
+      <stop offset="100%" stop-color="#1a2535"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="160" fill="url(#gbg)" rx="14"/>
+  <rect x="0" y="0" width="4" height="160" fill="#534ab7" rx="2" opacity="0.85"/>
+
+  <text x="36" y="36" font-family="'SF Pro Display','Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#4a7a9b" letter-spacing="4">GOALS 2026</text>
+  <line x1="36" y1="46" x2="828" y2="46" stroke="#2a3f58" stroke-width="1"/>
+
+  <line x1="310" y1="58" x2="310" y2="148" stroke="#2a3f58" stroke-width="1"/>
+  <line x1="584" y1="58" x2="584" y2="148" stroke="#2a3f58" stroke-width="1"/>
+
+  <!-- Goal 1 -->
+  <text x="36" y="92" font-size="22" font-family="sans-serif">⚛️</text>
+  <text x="66" y="92" font-family="'SF Pro Display','Segoe UI',sans-serif" font-size="17" font-weight="700" fill="#c8c2e8">React &amp; React Native</text>
+  <text x="36" y="116" font-family="'SF Mono',monospace" font-size="12" fill="#4a6a8a">Clean code · Clean patterns</text>
+
+  <!-- Goal 2 -->
+  <text x="326" y="92" font-size="22" font-family="sans-serif">🏗️</text>
+  <text x="358" y="92" font-family="'SF Pro Display','Segoe UI',sans-serif" font-size="17" font-weight="700" fill="#c8c2e8">Web Architecture</text>
+  <text x="326" y="116" font-family="'SF Mono',monospace" font-size="12" fill="#4a6a8a">DDD · Hexagonal · Scalable</text>
+
+  <!-- Goal 3 -->
+  <text x="600" y="92" font-size="22" font-family="sans-serif">🔧</text>
+  <text x="632" y="92" font-family="'SF Pro Display','Segoe UI',sans-serif" font-size="17" font-weight="700" fill="#c8c2e8">Go deeper with Go</text>
+  <text x="600" y="116" font-family="'SF Mono',monospace" font-size="12" fill="#4a6a8a">Backend · gRPC </text>
+</svg>
