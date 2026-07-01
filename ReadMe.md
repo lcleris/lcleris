@@ -19,9 +19,9 @@
 ## 👨🏻‍💻 About me
 
 ```yaml
-name:        Loan CLERIS
-location:    Courcelles, Belgium
-current_job: Frontend Developer @ Masana (Tournai, Belgium)
+name: Loan CLERIS
+location: Courcelles, Belgium
+current_job: Frontend Developer @ Vertuoza (Nivelles, Belgium)
 
 education:
   - Master en Ingénierie Du Web — ESGI
